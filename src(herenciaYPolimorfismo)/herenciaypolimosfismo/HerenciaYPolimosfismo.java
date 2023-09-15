@@ -1,11 +1,6 @@
 package herenciaypolimosfismo;
 
-import animales.Perro;
-import animales.Gato;
-import animales.Caballo;
-import animales.Animal;
-import animales.Conejo;
-import animales.Pato;
+import animales.*;
 
 public class HerenciaYPolimosfismo {
 
