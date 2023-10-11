@@ -3,12 +3,10 @@ package parcial1_labpoo;
 import parcial.labPOO.model.Empleado;
 import parcial.labPOO.tiposDeEmpleados.EmpleadoAsalariado;
 import parcial.labPOO.tiposDeEmpleados.EmpleadoPorHoras;
-import java.util.Scanner;
 
 public class Parcial1_LabPOO {
 
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
         Empleado[] arrayEmpleados = new Empleado[10];
 
         arrayEmpleados[0] = new EmpleadoAsalariado(30000, "Fernando", 2000000);
@@ -45,11 +43,10 @@ public class Parcial1_LabPOO {
             }
         }
 
-        String nombreABuscar;
+        String nombreABuscar = "Luis";
         System.out.println("==== Buscar Empleados ====");
-        System.out.println("Ingrese el nombre del empleado a buscar: ");
-        nombreABuscar = entrada.next();
-
+        System.out.println("Ingrese el nombre del empleado a buscar: " + nombreABuscar);
+        
         for (int i = 0; i < 10; i++) {
             if (arrayEmpleados[i].getNombre().equals(nombreABuscar)) {
                 System.out.println(arrayEmpleados[i]);
