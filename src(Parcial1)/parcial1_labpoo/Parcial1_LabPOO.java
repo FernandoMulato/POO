@@ -45,8 +45,8 @@ public class Parcial1_LabPOO {
 
         String nombreABuscar = "Luis";
         System.out.println("==== Buscar Empleados ====");
-        System.out.println("Ingrese el nombre del empleado a buscar: " + nombreABuscar);
-        
+        System.out.println("Nombre del empleado a buscar: " + nombreABuscar);
+
         for (int i = 0; i < 10; i++) {
             if (arrayEmpleados[i].getNombre().equals(nombreABuscar)) {
                 System.out.println(arrayEmpleados[i]);
