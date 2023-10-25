@@ -1,3 +1,5 @@
+/*Henry Fernando Mulato Llanten - Laura Sanchez*/
+
 package classinferfaz251023;
 
 import ejercicio.formaGeometrica.figuras.*;
